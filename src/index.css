@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+@plugin '@tailwindcss/typography';
+
+
+body{
+  font-size: 16px;
+}
+@theme {
+  --font-abhaya:  "Libre Baskerville", serif; 
+  --font-color: #444242;
+  /* --text-base: 13px; */
+}
+
+/* .reactMarkDown ol li {
+  margin-left: 2em;
+  display: list-item;
+  text-align: -webkit-match-parent;
+} */
+
