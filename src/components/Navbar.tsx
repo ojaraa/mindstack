@@ -44,7 +44,7 @@ const Navbar = () => {
 
       <div className="hidden md:flex gap-x-6 text-sm">
         <Link to={"/discover"}>Discover</Link>
-        <Link to={"/categories"}>Categories</Link>
+        {/* <Link to={"/categories"}>Categories</Link> */}
         <Link to={"/developer"}>About Developer</Link>
       </div>
 

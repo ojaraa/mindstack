@@ -68,7 +68,7 @@ const FullArticle = () => {
             />
           </div>
 
-          <div className="prose prose-sm sm:prose-base dark:prose-invert leading-7 text-font-color">
+          <div className="prose prose-sm sm:prose-base  leading-7 ">
             <ReactMarkdown>{fullArticle?.fields?.blogArticle}</ReactMarkdown>
           </div>
         </div>
