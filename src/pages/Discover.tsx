@@ -31,6 +31,10 @@ const Discover = () => {
        useEffect(() => {
           getArticles();
         }, []);
+
+        if(isLoading){
+            return <div className="mt-16 mb-8">Loading...</div>
+        }
   return (
     <div className="mt-16 mb-8">
       <div className="w-full sm:w-[60%] my-28 mx-auto grid gap-y-6">
