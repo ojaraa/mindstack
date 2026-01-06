@@ -1,74 +1,44 @@
-# React + TypeScript + Vite
+# MindStack — Headless CMS Blog Platform 🧠📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern content-driven blog application built with **React**, **TypeScript**, **Tailwind CSS**, and **Contentful Headless CMS**.  
+MindStack showcases a scalable blog architecture with dynamic content fetching, clean component design, and a responsive reading experience.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://mindstack-nine.vercel.app/  
+📦 **Repository:** https://github.com/ojaraa/mindstack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧩 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+MindStack is a **content publishing platform** built as a portfolio project to demonstrate how to:
 
-## Expanding the ESLint configuration
+- Fetch and render content from a **headless CMS** (Contentful)
+- Build a **type-safe React + TypeScript frontend**
+- Use modern tooling like **Vite** and **Tailwind CSS**
+- Deploy a static frontend to **Vercel**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Unlike static content, this blog dynamically retrieves content from Contentful, allowing real posts to be written, managed, and published without code changes.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+This is the kind of system used by real companies for blogs, news feeds, marketing sites, and documentation sites.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ✨ Core Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 📰 Blog Functionality
+- Dynamic blog listing from Contentful
+- Article detail pages with rich text rendering
+- Search and filtering (if implemented)
+- SEO-ready page structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 🛠 Tech Highlights
+- **React + TypeScript:** Strong type safety and component design
+- **Tailwind CSS:** Utility-first responsive UI
+- **Contentful CMS:** Headless content management
+- **Vite:** Fast development experience & optimized builds
+- **Vercel Deployment:** Continuous deployment from GitHub
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-# mindstack
+---
+
+## 📸 Screenshots
+
