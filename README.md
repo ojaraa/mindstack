@@ -41,4 +41,5 @@ This is the kind of system used by real companies for blogs, news feeds, marketi
 ---
 
 ## 📸 Screenshots
+![MindStack Home](mindstack.jpg)
 
